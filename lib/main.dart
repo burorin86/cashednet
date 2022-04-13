@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: CachedNetworkImage(
-                imageUrl: "http://via.placeholder.com/350x150",
+                imageUrl: "https://pbs.twimg.com/profile_images/1392740847175667716/z7I_OZOR_400x400.jpg",
                 placeholder: (context, url) => CircularProgressIndicator(),
                 errorWidget: (context, url, error) => Icon(Icons.error),
               ),
